@@ -1,0 +1,8 @@
+query {
+    boardList {
+        id
+        title
+        content
+        author
+    }
+}

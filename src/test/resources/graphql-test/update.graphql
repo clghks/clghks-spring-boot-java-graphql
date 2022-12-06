@@ -1,0 +1,8 @@
+mutation ($input: BoardInput) {
+    update(boardInput: $input) {
+        id
+        title
+        content
+        author
+    }
+}

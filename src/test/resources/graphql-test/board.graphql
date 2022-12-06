@@ -1,0 +1,8 @@
+query ($id: ID) {
+    board(id: $id) {
+        id
+        title
+        content
+        author
+    }
+}
