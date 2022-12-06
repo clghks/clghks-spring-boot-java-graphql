@@ -1,4 +1,5 @@
 type Query {
+    index: String
     boardList: [Board]
     board(id: ID): Board
 }
